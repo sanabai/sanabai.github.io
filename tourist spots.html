@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;1,600;1,900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navlinks" >
+                <i class="fa fa-times-circle" onclick="hidemenu()" ></i>
+
+                <ul>
+                    <li> <a href="index.html"> HOME </a></li>
+                    <li> <a href="about.html"> ABOUT </a></li>
+                    <li> <a href="tourist spots.html"> Tourist Spots </a></li>
+                    <li> <a href="blog.html"> BLOG </a></li>
+                    <li> <a href="contact.html"> CONTACT </a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+        </nav>
+        <h1>Tourist Spots</h1>
+        
+</section>
+<!----- tourists spots--->
+<!--- tourist spot-->
+<section class="spot">
+    <h1>Types Of Tourism In India</h1>
+    <p> 
+        India is famous for all type of tourist destinations in one place. We have Adventure Tourism, Cultural Tourism, Eco-Tourism, Religious Tourism and <br>
+        Film Tourism.
+    </p>
+    <div class="row">
+        <div class="spot-col">
+            <h3> Adventure Tourism </h3>
+            <p> Adventure Tourism is one among the different types of Tourism. according to the Adventure Travel Trade Association,
+                Adventure Tourism is a tourist activity that includes physical activity, a cultural exchange, or activities in nature.
+                 Adventure tourism is about connecting with a new culture or a new landscape and being physically active at the same time. </p>
+        </div>
+        <div class="spot-col">
+            <h3> Cultural Tourism </h3>
+            <p> India has the special place for Cultural Tourism beccause of the ancient civilization, as India has been considered as land of ancient history,
+                heitage and culture.
+                Among the various states for cultural tourism in India, Rajasthan is the most popular. 
+                The reason for this is that Rajasthan is famous for its rich cultural heritage.
+                 The most famous monument is the Taj Mahal in Agra. </p>
+        </div>
+        <div class="spot-col">
+            <h3> Eco-Tourism </h3>
+            <p> Ecotourism in India is a thriving industry owing to the fact that country has managed to save its resplendent natural beauty. 
+                In India we have a biological park, zoological parks, tea plantations, wildlife sanctuaries, 
+                high mountains and green jungles. </p>
+        </div>
+        <div class="spot-col">
+            <h3>  Religious Tourism </h3>
+            <p> India is a country which has choice of journey spiritual growth and enlightenment. Some of the famous religious cities are Amritsar,
+                 Ajmer, Fatehpur Sikri, Goa, Velankanni, Fort Kochi, Srirangam, Tirupati, Rameswaram, Thanjavur, Varanasi and Puri. </p>
+        </div>
+        <div class="spot-col">
+            <h3> Film Tourism </h3>
+            <p> The Indian movies leave a huge impact on the minds of viewers, may it be in the form of techniques used, angles shot or locations.
+                 When a viewer gets induced to visit a particular location after seeing it in a movie, it is termed as 'Film Tourism'. </p>
+        </div>
+    </div>
+</section>
+<!---spots-->
+<section class="spots">
+    <h1> Some Tourist Spots</h1>
+    <div class="row">
+        <div class="spots-col">
+            <img src="https://www.planetware.com/photos-large/IND/india-top-attractions-taj-mahal.jpg">
+            <div class="layer">
+                <h3>TAJ MAHAL</h3>
+            </div>
+        </div>
+        <div class="spots-col">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Munnar_hillstation_kerala.jpg/1200px-Munnar_hillstation_kerala.jpg">
+            <div class="layer">
+                <h3>MUNNAR HILL STATION</h3>
+            </div>
+        </div>
+        <div class="spots-col">
+            <img src="https://static.toiimg.com/photo/65022743.cms">
+            <div class="layer">
+                <h3>GOLDEN TEMPLE</h3>
+            </div>
+        </div>
+        <div class="spots-col">
+            <img src="https://contactinformation.in/wp-content/uploads/2018/09/ramoji_film_city1.jpg">
+            <div class="layer">
+                <h3>RAMOJI FILM CITY</h3>
+            </div>
+        </div>
+        <div class="spots-col">
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Solang-Valley.jpg">
+            <div class="layer">
+                <h3>MANALI</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!------footer--->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p2>To know about us you can follow them.</p2>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    
+</section>
+
+<!------JAVASCRIPT FOR MENU--->
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px";
+    }
+
+</script>
+    
+</body>
+</html>
